@@ -1,1 +1,1 @@
-# Portfolio
+This website was created to be an online portfolio for containing all of my projects. It has been made from scratch without using frameworks like bootstrap. Google fonts was also used for most of the text in the website. https://fonts.google.com/. 
