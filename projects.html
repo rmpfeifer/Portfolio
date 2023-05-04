@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ryan Pfeifer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="Ryan Pfeifer">
+    <script src="slideshow.js"></script>
+</head>
+
+<nav>
+    <ul>
+        <h2>
+            <li>
+                <b>
+                    <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+        </h2>
+    </ul>
+</nav>
+
+<body>
+
+    <div id="banner">
+        <h2><small>Highlights</small></h2>
+    </div>
+
+    <div id="slideshow">
+
+        <div class="slide" id="s1" style="display: block;">
+            <img src="./images/scoutslide.jpg" onclick="location.href = 'scouting.html';">
+            <div class="slidedesc">
+                <h2>Eagle Scout</h2>
+                <p>I am a proud Eagle Scout! Only around 6% of scouts are able to earn this acheivement.</p>
+            </div>
+        </div>
+
+        <div class="slide" id="s2">
+            <img src="./images/arcadeslide.jpg" onclick="location.href = 'arcade.html';">
+            <div class="slidedesc">
+                <h2>MAME Arcade</h2>
+                <p>Coming in at five and a half feet tall, this cabinet looks just like the real thing!</p>
+            </div>
+        </div>
+
+        <a id="back" class="clicker" onclick="changeSlide(2)">&nbsp;</a>
+        <a id="next" class="clicker" onclick="changeSlide(1)">&nbsp;</a>
+    </div>
+
+    <div id="banner">
+        <h2>
+            Other work
+        </h2>
+    </div>
+
+    <div class="image-grid">
+        <img src="images/thiswebsite.png" alt="This website!" onclick="location.href = 'website.html';">
+        <img src="images/claycountylogoupscale.jpg" alt="Clay County" onclick="location.href = 'claycounty.html';">
+        <img src="images/jupyter.jpeg" alt="Sales Data" onclick="location.href = 'sales.html';">
+        <img src="images/aapscreen.jpeg" alt="AAP website" onclick="location.href = 'aap.html';">
+        <img src="images/blackjac.png" alt="Blackjack" onclick="location.href = 'blackjack.html';">
+        <img src="images/fusedslide.jpg" alt="Fused Website" onclick="location.href = 'fused.html';">
+    </div>
+
+</body>
+
+
+</html>
